@@ -1,14 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Share&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
     <link rel="stylesheet" href="./assets/css/styles.css">
-
-
-    <title>Fem-Bot</title>
+    <title>FemBot</title>
 </head>
+
 <body>
+    <div class="nav-super">
+        <nav>
+            <img src="./assets/img/icons8-menu-48.png" alt="" class="menu-icon">
+            <ul>
+                
+                <li class="nav-link">
+                    <a href="#home" class="active">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#about">About</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#developers">Developers</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#stats">Stats</a>
+                </li>
+            </ul>
+            <span class="nav-link">
+                <a href="#tweets">
+                    <img src="./assets/img/icons8-twitter-64.png" alt="twitter feed" class="tweet-hover">
+                </a>
+            </span>
+
+        </nav>
+    </div>
+    <section id="home" class="hide">
+        <div class="container-flex">
+            <img src="./assets/img/Group 3 (1).svg" alt="fem-bot" class="fembot-logo">
+            <p class="intro">
+                A twitter bot to facilitate reporting crimes
+                against women.
+            </p>
+        </div>
+
+    </section>
+    <section id="about" class="hide">
+        <div class="container-flex about">
+            <h1>Our Vision</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut beatae facilis, molestiae amet in pariatur
+                quibusdam deserunt at quisquam voluptatibus expedita ullam velit blanditiis dolorum rem dolores, ipsam
+                ex nihil quaerat doloribus deleniti omnis earum excepturi error. Ipsam velit obcaecati vel provident,
+                neque, libero temporibus laboriosam dolore veniam cupiditate nulla!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consectetur officia quis
+                reprehenderit assumenda aliquid magnam accusamus laborum libero temporibus fuga fugit molestiae
+                veritatis maiores, doloribus quisquam velit saepe nihil hic eaque numquam odit ut dicta ipsa! Doloremque
+                temporibus rerum voluptatem ipsa minima nesciunt sed aliquam sequi tenetur. Deserunt, ad.
+            </p>
+
+        </div>
+    </section>
+    <section id="developers" class="hide">
+        <div class="container-flex">
+            <div class="card">
+                <div class="inner-flex">
+                    <div>
+                       
+                        <img src="./assets/img/person.jpg" alt="" class="dev">
+                    </div>
+                    <div>
+                        <h2>
+                            Apurva
+                        </h2>
+                        <p>Back end Developer</p>
+                    </div>
+                   
+                </div>
+                <div class="col-flex">
+                    <a href="">
+                        <img src="./assets/img/icons8-twitter-64.png" alt="" class="sm-icon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/icons8-linkedin-64.png" alt="" class="sm-icon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/icons8-github-80 (1).png" alt="" class="sm-icon-sm">
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inner-flex">
+                    <div>
+                        <img src="./assets/img/person.jpg" alt="" class="dev">
+                    </div>
+                    <div>
+                        <h2>
+                            Vishaka
+                        </h2>
+                        <p>Back end Developer</p>
+                    </div>
+                   
+                </div>
+                <div class="col-flex">
+                    <a href="">
+                        <img src="./assets/img/icons8-twitter-64.png" alt="" class="sm-icon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/icons8-linkedin-64.png" alt="" class="sm-icon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/icons8-github-80 (1).png" alt="" class="sm-icon-sm">
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="inner-flex">
+                    <div>
+                        <img src="./assets/img/person.jpg" alt="" class="dev">
+                    </div>
+                    <div>
+                        <h2>
+                            Gurnehmat
+                        </h2>
+                        <p>Front end developer</p>
+                    </div>
+                   
+                </div>
+                <div class="col-flex">
+                    <a href="">
+                        <img src="./assets/img/icons8-twitter-64.png" alt="" class="sm-icon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/icons8-linkedin-64.png" alt="" class="sm-icon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/icons8-github-80 (1).png" alt="" class="sm-icon-sm">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="stats" class="hide">
+
+    </section>
+    <section id="tweets" >
+        
+    <div class="container-flex">
+
+        <!--
+            twitter timeline with
+             data-theme="dark" attribute
+           
+        
+        
+        -->
+
+    </div>
+    
+    </section>
+   <div class="footer">
+       <div class="circle circle-active circle-home"></div>
+       <div class="circle circle-about"></div>
+       <div class="circle circle-developers"></div>
+       <div class="circle circle-stats"></div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!--JavaScript-->
     <script src="assets/js/index.js"></script>
 </body>
+
 </html>

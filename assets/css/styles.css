@@ -1,4 +1,168 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    background-color: #000000;
+    font-family: 'Share', cursive;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.menu-icon{
+    display: none;
+}
+.nav-super{
+    position: fixed;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: block;
+}
+.nav-link{
+    display: inline;
+    padding: 0 1.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #F7A1C8;
+    font-size: 1.7rem;
+    padding: 0.5rem;
+}
+a.active{
+    color: #85CBF8;
+}
+.container-flex{
+    min-height: 90vh;
+    width: 90vw;
+    padding: 5vh 5vw 5vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#developers>.container-flex, #tweets>.container-flex{
+    padding: 12vh 5vw 10vh 5vw;
+}
+.fembot-logo{
+    width: 450px;
+    max-width: 100%;
+}
+.intro{
+    text-align: center;
+    margin-top: 3rem;
+    width: 400px;
+    max-width: 100%;
+    font-size: 1.3rem;
+}
+
+h1{
+ 
+    font-size: 3rem;
+   
+}
+#about{
+    text-align: center;
+}
+.about>p{
+    width: 400px;
+    max-width: 100%;
+}
+.tweet-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu-icon:hover, .tweet-hover, .sm-icon:hover, .sm-icon-sm:hover{
+    cursor: pointer;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: #85CBF8;
+    margin: 0 1rem;
+    border-radius: 50%;
+}
+.circle-active{
+    background-color: #F7A1C8;
+    height: 25px;
+    width: 25px;
+}
+
+.card, .inner-flex, .col-flex{
+   display: flex;
+   align-items: center;
+}
+.card{
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #161616;
+    padding: 2rem;
+    width: 500px;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+.dev{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.col-flex{
+    flex-direction: column;
+    justify-content: center;
+}
+.sm-icon{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.sm-icon-sm{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+
+
+.footer {
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+@media (max-width: 768px){
+    .nav-super{
+        display: block;
+    }
+   
+    .menu-icon{
+        display: block;
+        padding: 0.5rem;
+    }
+    ul{
+        text-align: center;
+    }
+  
+    .nav-link{padding-bottom: 1rem;
+        display: block;}
+}
+
+.hide{
+    display: none;
 }
