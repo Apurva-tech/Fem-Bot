@@ -10,25 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Share&display=swap" rel="stylesheet">
     <!--Custom CSS-->
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <!--Map JS-->
+    <script src="mapdata.js"></script>
+    <script src="worldmap.js"></script>
     <title>FemBot</title>
 </head>
 
 <body>
+    <div class="loader" id="loader">
+        <img src="./assets/img/icons8-safe-ok-40.png" alt="Safe" class="load">
+    </div>
     <div class="nav-super">
         <nav>
             <img src="./assets/img/icons8-menu-48.png" alt="" class="menu-icon">
             <ul>
                 
-                <li class="nav-link">
+                <li class="nav-link home-link">
                     <a href="#home" class="active">Home</a>
                 </li>
-                <li class="nav-link">
+                <li class="nav-link about-link">
                     <a href="#about">About</a>
                 </li>
-                <li class="nav-link">
+                <li class="nav-link developers-link">
                     <a href="#developers">Developers</a>
                 </li>
-                <li class="nav-link">
+                <li class="nav-link stats-link">
                     <a href="#stats">Stats</a>
                 </li>
             </ul>
@@ -40,7 +46,7 @@
 
         </nav>
     </div>
-    <section id="home" class="hide">
+    <section id="home" class="">
         <div class="container-flex">
             <img src="./assets/img/Group 3 (1).svg" alt="fem-bot" class="fembot-logo">
             <p class="intro">
@@ -149,25 +155,27 @@
         </div>
     </section>
     <section id="stats" class="hide">
-
+        <div class="container-flex">
+            <h1>Women, Peace, and Security Index Ranking</h1>
+            <div style="width: 700px; max-width: 90%;">
+                <div id="map"></div></div>
+            
+            <a class="source" target="_blank" href="https://giwps.georgetown.edu/the-index/#:~:text=The%202019%20WPS%20Index%20ranks,worst%20states%20for%20American%20women.">
+                Source </a>
+    
+        </div>
     </section>
-    <section id="tweets" >
+    <section id="tweets" class="hide">
         
     <div class="container-flex">
 
-        <!--
-            twitter timeline with
-             data-theme="dark" attribute
-           
-        
-        
-        -->
-
+        <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/teamataksuki?ref_src=twsrc%5Etfw">Tweets by teamataksuki</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
     </div>
     
     </section>
    <div class="footer">
-       <div class="circle circle-active circle-home"></div>
+       <div class="circle circle-home circle-active "></div>
        <div class="circle circle-about"></div>
        <div class="circle circle-developers"></div>
        <div class="circle circle-stats"></div>

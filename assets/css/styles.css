@@ -8,6 +8,13 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
+.loader{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 99;
+    position: fixed;
+}
 
 .menu-icon{
     display: none;
@@ -18,11 +25,13 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 99;
 }
 
 ul{
     list-style: none;
     display: block;
+   
 }
 .nav-link{
     display: inline;
@@ -78,7 +87,11 @@ h1{
     top: 0;
     right: 0;
 }
-.menu-icon:hover, .tweet-hover, .sm-icon:hover, .sm-icon-sm:hover{
+.tweet-hover:hover{
+    animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.menu-icon:hover, .tweet-hover, .sm-icon:hover, .sm-icon-sm:hover, .circle:hover{
     cursor: pointer;
 }
 .circle{
@@ -94,7 +107,7 @@ h1{
     width: 25px;
 }
 
-.card, .inner-flex, .col-flex{
+.card, .inner-flex, .col-flex, .loader{
    display: flex;
    align-items: center;
 }
@@ -102,9 +115,9 @@ h1{
     justify-content: space-between;
     border-radius: 10px;
     background-color: #161616;
-    padding: 2rem;
+    padding: 1rem 2rem;
     width: 500px;
-    max-width: 100%;
+    max-width: 90%;
     margin-bottom: 2rem;
 }
 .dev{
@@ -114,7 +127,7 @@ h1{
     border-radius: 50%;
     margin-right: 2rem;
 }
-.col-flex{
+.col-flex, .loader{
     flex-direction: column;
     justify-content: center;
 }
@@ -166,3 +179,41 @@ h1{
 .hide{
     display: none;
 }
+
+.source{
+    color: #85CBF8;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .load{
+      animation: 1s scaleme infinite;
+  }
+  @keyframes scaleme{
+      0%{
+        transform: scale(1);
+      }
+      50%{
+        transform: scale(1.5);
+      }
+      100%{
+        transform: scale(1); 
+      }
+  }
+  .tt_mobile_sm{
+      display: none;
+  }
+  

@@ -35,12 +35,11 @@ let navLinks=$('.nav-link')
 let sections=$('section')
 let anchors=$('.nav-link>a')
 let circles=$('.circle')
-console.log(sections)
-$.each(navLinks, function(key, value){
+
+function clickNav(){
     width = document.body.clientWidth;
     
 
-    $(value).click(function(){
         let anchor=this.children[0];
         let show=$(anchor).attr('href');
         console.log(show)
@@ -75,10 +74,27 @@ $.each(navLinks, function(key, value){
         let current=show.slice(1,)
         console.log(current)
         $(`.circle-${current}`).addClass('circle-active')
-
-
-    })
  
+
+
+}
+
+
+console.log(sections)
+$.each(navLinks, function(key, value){
+    $(value).click(clickNav)
+
+})
+
+
+
+
+$.each(circles, function(k,v){
+
+    $(v).click(function(){
+        let str=(v.classList[1].slice(7,))
+        $(`.${str}-link`).click()
+    })
 
 })
 
@@ -99,3 +115,9 @@ var onresize = function() {
 }
  window.addEventListener("resize", onresize);
  $( document ).ready(onresize);
+
+
+ $(document).ready(function() {
+    $('#loader').addClass("hide");
+ });
+
