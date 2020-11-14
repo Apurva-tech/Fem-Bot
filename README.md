@@ -11,7 +11,7 @@ rubbing against another person in a sexual way.
 sex at some point in their life. And India ranks 113 in the world. 
 </strong>
 
-<p  align="center"><img height= "400" width = "800" src = "https://github.com/Apurva-tech/Fem-Bot/blob/main/map_images/readme-1.png"></p>
+<p  align="center"><img height= "400" width = "800" src = "https://github.com/Apurva-tech/Fem-Bot/blob/main/map_images/maps-readme-2.gif"></p>
 
 
 # What it does
