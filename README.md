@@ -1,8 +1,8 @@
 # Fem-Bot 
 
 # Inspiration 
-Violence against women in India refer to physical or sexual violence committed against a woman, typically by a man. Common forms of violence against women in India include
-acts such as domestic abuse, sexual assault, and murder. In order to be considered violence against women, the act must be committed solely because the victim is female.
+Worldwide, 1 in 3 women have experienced physical or sexual violence — mostly by an intimate partner. When accounting for sexual harassment, this figure is even higher. Worldwide, almost 3 in 5 women killed were killed by their partners or family in 2017. 
+In order to be considered violence against women, the act must be committed solely because the victim is female.
 Sexual harassment includes non-contact forms, like sexual comments about a person’s body parts or appearance, whistling, demands for sexual favors, 
 sexually suggestive staring, stalking, and exposing one’s sexual organs at someone. It also includes physical contact forms, like grabbing, pinching, slapping, or 
 rubbing against another person in a sexual way.
@@ -17,7 +17,6 @@ sex at some point in their life. And India ranks 113 in the world.
 # What it does
 
 
-
 # How We built it
 
 # Challenges we ran into
@@ -30,6 +29,7 @@ sex at some point in their life. And India ranks 113 in the world.
 
 # Built With
 - [x] Python 
+ - ✔  Virtualenv
  - ✔  Tweepy
 - [x] Twitter API 
 - [x] HTML/CSS
