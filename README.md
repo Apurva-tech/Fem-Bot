@@ -8,7 +8,7 @@ sexually suggestive staring, stalking, and exposing one’s sexual organs at som
 rubbing against another person in a sexual way.
 
 <strong>Most of the crimes don't even get reported and are left unresolved. Approximately 15 million adolescent girls (aged 15 to 19) worldwide have experienced forced 
-sex at some point in their life. And India ranks 113 in the world. 
+sex at some point in their life. And India ranks 133 in the women, peace and security index rating. 
 </strong>
 
 <p  align="center"><img height= "400" width = "800" src = "https://github.com/Apurva-tech/Fem-Bot/blob/main/map_images/maps-readme-2.gif"></p>
