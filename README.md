@@ -1,4 +1,4 @@
-# Fem-Bot 
+# Fem-Bot <img src="https://media.giphy.com/media/3oge7Ve0gmIOhJkhOg/giphy.gif" width="80" height = "70" >
 
 # Inspiration ⚡ 
 Worldwide, 1 in 3 women have experienced physical or sexual violence — mostly by an intimate partner. When accounting for sexual harassment, this figure is even higher. Worldwide, almost 3 in 5 women killed were killed by their partners or family in 2017. 
