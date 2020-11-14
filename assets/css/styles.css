@@ -55,6 +55,11 @@ a.active{
     align-items: center;
     flex-direction: column;
 }
+.tweets{
+    width: 700px;
+    max-width: 90%;
+    margin-top: 2rem;
+}
 #developers>.container-flex, #tweets>.container-flex{
     padding: 12vh 5vw 10vh 5vw;
 }
@@ -78,6 +83,7 @@ h1{
 #about{
     text-align: center;
 }
+
 .about>p{
     width: 400px;
     max-width: 100%;

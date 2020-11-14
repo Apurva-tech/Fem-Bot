@@ -4,29 +4,14 @@ import time
 import datetime
 
 
-
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-ACCESS_KEY = ''
-ACCESS_SECRET = ''
-
-
-
-
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-
 last_seen = None
 
-
-    
-    
 while True:
-    
-    
-   
+
     twt = api.search(q="#crimeagainstwomen OR #StopViolenceAgainstWomen OR #domesticabuse OR #womensupportingwomen OR #endhumantrafficking",
                      count=3, tweet_mode='extended', since_id=last_seen) 
     
