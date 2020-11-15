@@ -41,7 +41,7 @@ while True:
        print(s.id)
        e = datetime.datetime.now()
        sn = s.user.screen_name
-       m = "@%s @%s @%s @%s please take notice %s:%s:%s" % (sn,"BeingSanch","DurgaIndia1", "NCWIndia", e.hour,e.minute,e.second)
+       m = "@%s @%s @%s @%s %s:%s:%s" % (sn,"CAREGlobal","FemmeInt", "ngowgwps", e.hour,e.minute,e.second)
        api.update_status(status=m, in_reply_to_status_id = s.id)
 
        # Retweet 

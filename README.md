@@ -33,7 +33,7 @@ This model is used for classifying the tweets which we extracted earlier(with re
 - 4. Deploying the bot. 
 
 # Accomplishments that we are proud of 😌
-## We created a completely functional bot , which can make a small in society. We successfully embeded all the tweets and created stats for our website.
+## We created a completely functional twitter bot, which can make a small difference in society. We successfully embedded all the tweets and created stats for our website.
 
 # What we learned 🤩
 We learned how to use the Twitter API and fetch realtime data for the website. 
