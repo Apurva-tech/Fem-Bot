@@ -20,9 +20,13 @@ sex at some point in their life. And India ranks 133 in the women, peace and sec
 
 # How We built it 💡
 
-First we extracted a certain number of tweets(latest first) having hashtags related to crime against women. Once the tweets are retrieved, we perform sentiment analysis on them to figure out whether the tweets are positive – spreading awareness about women crimes or empowering women, negative – victims asking for immediate help and tweets having neutral tone as well.  
-For training our model we collected tagged twitter data and performed cleansing by removing URLs, usernames, numbers, special characters, etc. after which the text was processed and tokenized. The data is then transformed into a bag of words representation. Naïve Bayes Classifier is used for classification. The model was about x% accurate.
-This model is used for classifying the tweets which we extracted earlier(with respect to certain hashtags) and then retweets it. It also tags the authorities to bring crimes to their notice so that they can reach out to the victim and offer immediate help. <strong>The auto retweet and reply features have been implemented using the twitter API and the Python tweepy library. </strong> 
+1. First we extracted a certain number of tweets having hashtags related to crime against women, and supporting women.
+2. Once the tweets are retrieved, we perform sentiment analysis on them to figure out whether the tweets are spreading awareness about women crimes or empowering women, asking for immediate help. Besides, spam tweets are omitted.
+3. For training our model we collected tagged twitter data and pre-processed it. The tweets were labelled as either positive or negative.
+We used spaCy for text classification which is an open-source python NLP library. Thus, training data was prepared and the model was trained for 10 epochs
+ <strong>The auto retweet and reply features have been implemented using the twitter API and the Python tweepy library. </strong> 
+4. This model is then used to classify the extracted tweets and also tag appropriate authorities as per the sentiment to bring crimes to their notice for immediate help.
+ The auto retweet and reply features have been implemented using the twitter API and the Python tweepy library.
 
 
 # Challenges we ran into 🧠
