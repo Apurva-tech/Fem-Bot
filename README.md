@@ -18,6 +18,8 @@ sex at some point in their life. And India ranks 133 out of 167 countries in the
 
 ## FemBot is a twitter bot that helps get tweets related to gender related crimes more traction on twitter and increase their reach. Our project aims to contribute towards making sure incidents don’t go unnoticed by authorities and get more attention because of being in the public domain.
 
+<p  align="center"><img height= "400" width = "800" src = "https://github.com/Apurva-tech/Fem-Bot/blob/main/map_images/how-it-works.gif"></p>
+
 ## How We built it 💡
 
 1. First we extracted a certain number of tweets having hashtags related to crime against women, and supporting women.
