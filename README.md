@@ -50,12 +50,46 @@ The accuracy of the sentiment analysis model can be increased in the future.
 ## ➡ Extend the bot to other crime genres
 Fembot mainly focuses on gender related crimes and more prominently those against women. This model can be used for other genres of crime and be made more inclusive for other communities.
 
+# Help File 💻
+- [x] Clone the repository to your local directory
+ - `git clone https://github.com/Apurva-tech/Fem-Bot.git`
+ 
+- [x] Create a twitter developer account and generate API keys and Access keys 
+ - Add your keys to the script bot.py
+ 
+```python
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
+```
+ 
+- [x] Now create a virtualenv for your local directory
+ - `pip install virtualenv`
+ - `virtualenv env`
+ - `env\Scripts\activate`
+ - `python bot.py`
+
+- [x] Ctrl + C to stop the infinite loop, check your bot account to see the bot in Action!!
+
 # Built With ⚙
 - [x] Python 
  - ✔  Virtualenv
  - ✔  Tweepy
+ - ✔  SpaCy
 - [x] Twitter API 
 - [x] HTML/CSS
 - [x] Javascript
 - [x] Simplemaps
 - [x] Deployed on Vercel
+
+# Try it out 👇🏽
+
+- 🤖 [The Fem-Bot](https://twitter.com/_FemBot_)
+- 🕸 [The Website](https://fem-bot.vercel.app/#home)
+- 🖥 [The Figma Prototype](https://www.figma.com/file/85YouCfOSe4H6J40V2ccaS/TwitterBOT?node-id=0%3A1)
+
+# 3️⃣ Cheers to the team 🥂
+- [Gurnehmat Kaur Dhindsa](https://github.com/gkdhindsa) 
+- [Vishaka Mohan](https://github.com/vishaka-mohan) 
+- [Apurva Sharma](https://github.com/Apurva-tech) 
